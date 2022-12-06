@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cursus">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Nikka Punjwani">
+    <title>Mijn webpagina</title>
+</head>
+
+
+<body>
+
+    <header>
+        <h1> Matchapp </h1>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Valorant</h2>
+            <img src="Images/Valorant_2022_E5A2_PlayVALORANT_ContentStackThumbnail_1200x625_MB01.png" alt=""
+                width="300">
+            <a href="https://playvalorant.com/en-us/">Valorant website here</a>
+            <p>Valorant is a 5v5 FPS game, where players have to defend or attack, there are 18 different agents with
+                each their unique playstyle</p>
+        </section>
+        <section id="lijstjes">
+            <h2>What roles</h2>
+            <ul>
+                <li>Duelist (Jett, Reyna, Neon, Yoru, Phoenix, Raze)</li>
+                <li>initiator (Breach, Fade, Skye, KAY/O, Sova) </li>
+                <li>Controller (Brimstone, Viper, Omen, Astra)</li>
+                <li>Sentinel (Cage, Cypher, Chamber, Killjoy)</li>
+
+                <p><strong>What to do</strong></p>
+                <ul>
+                    <li>be nice to your teammates, dont bring them down</li>
+                    <li>try to play good and if you play a bad game, be a support agent</li>
+                    <li>play agents you are comfortable with</li>
+                </ul>
+                <p><strong>What not to do</strong></p>
+                <ol>
+                    <li>troll, dont troll in competitieve</li>
+                    <li>be toxic, you will get a ban for this (racism is also a form of toxicity)</li>
+                    <li>any kind of leaving the game during a match or agent select will be resulted as first warnings
+                        and
+                        then bans</li>
+                </ol>
+            </ul>
+        </section>
+
+        <section id="formulier">
+           <h2>!Fill in the form!</h2>   
+            <form action="infortmation">
+                <fieldset>
+                    <legend>whats your name?</legend>
+                    <input type="text">
+                </fieldset>
+                <fieldset>
+                    <legend>Your UID</legend>
+                    <input type="number" name="User" id="UsernameID" placeholder="username#1234">
+                </fieldset>
+                <fieldset>
+                    <legend>questions or comments</legend>
+                    <textarea name="QA" id="QA" cols="20" rows="6"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>what are you looking for?</legend>
+                    <select name="enquete" id="Queue">
+                        <option value="Duo">duo</option>
+                        <option value="3stack">3 stack</option>
+                        <option value="5stack">4 stack (only available on unrated)</option>
+                        <option value="5stack">5 stack</option>
+                    </select>
+                </fieldset>
+            </form>
+            <form action="competitieve">
+                <fieldset>
+                    <legend>what rank are you</legend>
+                    <input type="radio" name="rank" id="unranked">Unranked
+                    <input type="radio" name="rank" id="Iron">Iron
+                    <input type="radio" name="rank" id="bronze">Bronze
+                    <input type="radio" name="rank" id="Silver">Silver
+                    <input type="radio" name="rank" id="Gold">Gold
+                    <input type="radio" name="rank" id="Platinum">Platinum
+                    <input type="radio" name="rank" id="Diamond">Diamond
+                    <input type="radio" name="rank" id="Ascendant">Ascendant
+                    <input type="radio" name="rank" id="Immortal">Immortal
+                    <input type="radio" name="rank" id="Radiant">Radiant
+                </fieldset>
+                <fieldset>
+                    <legend>who do you main</legend>
+
+                    <input type="checkbox" name="agent" id="Jett">Jett
+                    <input type="checkbox" name="agent" id="Sage">Sage
+                    <input type="checkbox" name="agent" id="Sova">Sova
+                    <input type="checkbox" name="agent" id="Brimstone">Brimstone
+                    <input type="checkbox" name="agent" id="Phoenix">Phoenix
+                    <input type="checkbox" name="agent" id="viper">Viper
+                    <input type="checkbox" name="agent" id="Raze">Raze
+                    <input type="checkbox" name="agent" id="Omen">Omen
+                    <input type="checkbox" name="agent" id="Breach">Breach
+                    <input type="checkbox" name="agent" id="Neon">Neon
+                    <input type="checkbox" name="agent" id="KAY/O">KAY/O
+                    <input type="checkbox" name="agent" id="Yoru">Yoru
+                    <input type="checkbox" name="agent" id="Cypher">Cypher
+                    <input type="checkbox" name="agent" id="Killjoy">Killjoy
+                    <input type="checkbox" name="agent" id="Fade">Fade
+                    <input type="checkbox" name="agent" id="Astra">Astra
+                    <input type="checkbox" name="agent" id="Reyna">Reyna
+                    <input type="checkbox" name="agent" id="Skye">Skye
+                    <input type="checkbox" name="agent" id="Chamber">Chamber
+                </fieldset>
+                <fieldset>
+                    <legend> what level are you</legend>
+                    <input type="number" name="level" id="level">
+                </fieldset>
+                <button>verzenden</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
